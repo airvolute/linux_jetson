@@ -200,7 +200,7 @@
 
 					sensor_model = "ov9281";
 					use_sensor_mode_id = "true";					
-					fsync = "none"; /*none/none*/
+					fsync = "none"; /*none/slave-trigger*/
 
 					mode0 { /* OV9281_MODE_1280x800 */						
 						mclk_khz = "26000";						
@@ -351,7 +351,7 @@
 
 					sensor_model = "ov9281";
 					use_sensor_mode_id = "true";
-					fsync = "none"; /*none/none*/
+					fsync = "none"; /*none/slave-trigger*/
 
 					mode0 { /* OV9281_MODE_1280x800 */						
 						mclk_khz = "26000";						
@@ -503,7 +503,7 @@
 
 					sensor_model = "ov9281";
 					use_sensor_mode_id = "true";
-					fsync = "none"; /*none/none*/
+					fsync = "none"; /*none/slave-trigger*/
 
 					mode0 { /* OV9281_MODE_1280x800 */						
 						mclk_khz = "26000";						
@@ -655,7 +655,7 @@
 
 					sensor_model = "ov9281";
 					use_sensor_mode_id = "true";
-					fsync = "none"; /*none/none*/
+					fsync = "none"; /*none/slave-trigger*/
 
 					mode0 { /* OV9281_MODE_1280x800 */						
 						mclk_khz = "26000";						
